@@ -17,7 +17,8 @@
         "objects": "always-multiline",
         "imports": "always-multiline",
         "exports": "always-multiline",
-        "functions": "ignore"
+        "functions": "ignore",
+        "endOfLine": "lf"
       }
     ],
     "no-plusplus": "off"
