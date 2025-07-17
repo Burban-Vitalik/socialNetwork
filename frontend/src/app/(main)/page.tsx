@@ -1,8 +1,8 @@
 'use client';
 import { ApolloProvider, useMutation } from '@apollo/client';
-import { CREATE_USER } from './mutations/createUser';
 import { useState } from 'react';
-import client from './lib/apolloClient';
+import client from 'src/lib/apolloClient';
+import { CREATE_USER } from 'src/mutations/createUser';
 
 export default function Home() {
   const [createUser] = useMutation(CREATE_USER);

@@ -1,6 +1,4 @@
-// app/layout.tsx
-
-import Providers from './providers/providers';
+import Providers from 'src/providers/providers';
 
 export default function RootLayout({
   children,
