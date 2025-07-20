@@ -28,6 +28,7 @@ export default function Home() {
 
   return (
     <ApolloProvider client={client}>
+      <p className="text-red-500">Реєстрація</p>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
